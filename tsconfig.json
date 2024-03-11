@@ -1,10 +1,20 @@
 {
-  "compileOnSave": true,
   "compilerOptions": {
-    "target": "ES6",
+    "allowJs": false,
+    "noEmit": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es5", "dom"],
     "module": "commonjs",
+    "moduleResolution": "node",
     "noEmitOnError": true,
-    "strict": true,
-    "noImplicitAny": true
-  }
+    "noImplicitAny": false,
+    "outDir": "../wwwroot/app/",
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es6"
+  },
+  "compileOnSave": false,
+  "exclude": ["src", "wwwroot/**/*"],
+  "include": ["www.root/**/*"]
 }
