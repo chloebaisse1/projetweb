@@ -1,5 +1,6 @@
-import Route from "./Route.js"
-export const allRoutes = [new Route("/", "Accueil", "/pages/home.html")]
-
-// Le titre s'affiche comme ceci : Route.titre-ebsitenamexport const websiteName = "Quai Antique"
+import Route from "./Router/Route"
+export const allRoutes = [
+  new Route("/", "Accueil", "/pages/home.html"),
+  new Route("/galerie", "La galerie", "/pages/galerie.html"),
+]
 export const websiteName = "Quai Antique"
