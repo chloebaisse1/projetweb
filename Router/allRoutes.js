@@ -1,4 +1,4 @@
-import Route from "./Router/Route"
+import Route from "./Route.js"
 export const allRoutes = [
   new Route("/", "Accueil", "/pages/home.html"),
   new Route("/galerie", "La galerie", "/pages/galerie.html"),
