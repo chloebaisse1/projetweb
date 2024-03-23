@@ -2,7 +2,12 @@ import Route from "./Route.js"
 export const allRoutes = [
   new Route("/", "Accueil", "/pages/home.html"),
   new Route("/galerie", "La galerie", "/pages/galerie.html"),
-  new Route("/signin", "Connexion", "/pages/auth/signin.html"),
+  new Route(
+    "/signin",
+    "Connexion",
+    "/pages/auth/signin.html",
+    "/js/auth/signin.js"
+  ),
   new Route(
     "/signup",
     "Inscription",
