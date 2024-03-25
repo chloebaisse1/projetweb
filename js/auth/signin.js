@@ -11,9 +11,9 @@ function checkCredentials() {
     //Il faudra recuperer le vrai token
     const token = "gefgflrlrotelede"
     setToken(token)
-
     //placer ce token en cookie
 
+    setCookie("RoleCookieName", "client", 7)
     window.location.replace("/")
   } else {
     mailInput.classList.add("is-invalid")
